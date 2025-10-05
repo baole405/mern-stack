@@ -1,8 +1,7 @@
-import React from 'react'
-import { Routes } from 'react-router-dom'
-import Homepage from './page/homepage'
-import NoteDetailPage from './page/NoteDetailPage'
-import CreatePage from './page/createpage'
+import { Route, Routes } from "react-router-dom";
+import CreatePage from "./page/createpage";
+import Homepage from "./page/homepage";
+import NoteDetailPage from "./page/NoteDetailPage";
 
 const App = () => {
   return (
@@ -13,7 +12,7 @@ const App = () => {
         <Route path="/notes/:id" element={<NoteDetailPage />} />
       </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
