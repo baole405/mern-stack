@@ -14,3 +14,6 @@ export function updateNote(req, res) {
 export function deleteNote(req, res) {
   res.status(200).send("Note Deleted Successfully");
 };
+
+//DRHhAdzO8mnuwyso
+
